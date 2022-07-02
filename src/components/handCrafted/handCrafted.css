@@ -1,0 +1,101 @@
+.handCrafted
+{
+  margin-top: 90px;
+  padding: 0;
+}
+
+.bg_blue
+{
+    background-color: #002D69;
+    padding-top: 160px;
+
+}
+
+.handCrafted_heading
+{
+    font-size: 54px;
+    color:#fff;
+    font-weight: 900;
+    width:90%;
+    margin-left: 0;
+    
+}
+
+.handCrafted_text
+{
+    font-size: 28px;
+    color:#fff;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.btn_container
+{
+    margin-top: 37px;
+}
+.handCrefted_btn
+{
+    font-size: 16px;
+    color:#002D69;
+    background-color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+
+
+.handCrafted img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Media css */
+
+@media screen and (max-width:1280px) {
+    .bg_blue
+   {
+    padding-top: 140px;
+  }
+}
+
+@media screen and (max-width: 1138px)
+{
+    .handCrafted_heading
+    {
+        font-size: 45px;
+    }
+
+    .handCrafted_text
+    {
+     font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .bg_blue
+   {
+    padding-top: 100px;
+
+    }
+    .handCrafted_heading
+    {
+        font-size: 40px;
+    }
+
+    .handCrafted_text
+    {
+     font-size: 19px;
+    }
+
+    .handCrefted_btn
+  {
+    font-size: 14px;
+  }
+
+
+   
+}
+

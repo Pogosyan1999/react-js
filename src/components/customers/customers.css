@@ -1,0 +1,43 @@
+.customers_column
+{
+    border: 1px solid #DADADA;
+}
+
+.customers_content
+{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 23px;
+    padding-bottom: 31px;
+    font-style: italic;
+    color:#343434;
+    margin: 0 auto;
+}
+
+.customer_name a
+{
+    font-size: 18px;
+    color:#000;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1138px)
+{
+    .customers_content
+   {
+    font-size: 15px;
+   }
+
+   .customer_name a
+   {
+    font-size: 15px;
+ }
+}
+
+@media screen and (max-width: 1024px)
+{
+   .customers_content
+   {
+    width: 100%;
+   }
+}

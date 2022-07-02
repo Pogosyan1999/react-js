@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body
+ {
+  margin: 0;
+  font-family: 'Lato',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code 
+{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2
+{
+  color:#002D69;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 13px;
+}
+
+a
+{
+  text-decoration: none !important;
+}
+
+h3{
+  margin-top: 10px;
+  font-size: 18px ;
+  color: #002d69;
+  text-transform: uppercase;
+}
+
+button
+{
+  padding: 0;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  width:170px;
+  height: 42px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+/* media css */
+@media screen and (max-width: 1138px)
+{
+    h2
+    {
+       font-size: 25px;
+    }
+
+    h3{
+      font-size: 16px ;
+    }
+}
+
